@@ -1,0 +1,108 @@
+body {
+     background-color: #404040;
+     font-family: Helvetica;
+     color: #fff;
+}
+
+.hide {
+     display: none;
+}
+
+div.container {
+     /* margin-top: 20px; */
+     max-width: 600px;
+     margin: 25px auto;
+     padding: 20px 20px;
+     background-color: #4d4d4d;
+     border-radius: 25px;
+     overflow: hidden;
+}
+
+div.audio-info {
+     text-align: center;
+}
+
+input.volume {
+     width: 20%;
+     /* -webkit-appearance: none !important; */
+     /* margin: 0px 4%; */
+}
+
+input.volume::-webkit-slider-thumb {
+     -webkit-appearance: none !important;
+     background: url('../images/knob.png') no-repeat;
+     height: 12px;
+     width: 12px;
+}
+
+div.audio-buttons {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+button {
+     background-color: transparent;
+     border: none;
+}
+
+button > img {
+     width: 30px;
+}
+
+div.tracker {
+     display: flex;
+     align-items: center;
+     padding: 10px 0px;
+}
+
+div.progress-bar {
+     position: relative;
+     width: 80%;
+     padding: 0px;
+     height: 5px;
+     background-color: #fff;
+}
+
+div.progress {
+     position: absolute;
+     display: inline-block;
+     height: 100%;
+     padding: 0px;
+     /* width: 20%; */
+     background-color: #3399ff;
+}
+
+div.duration {
+     text-align: center;
+     width: 20%;
+}
+
+div.duration > span {
+     padding: 5px 12px;
+     background-color: #000;
+     border-radius: 8px;
+}
+
+
+ul.playlist {
+     list-style-type: none;
+     background-color: #29303d;
+     padding: 0px;
+}
+
+ul.playlist > li {
+     padding: 10px 0px 10px 20px;
+     /* border-bottom: 2px solid #000; */
+}
+
+ul.playlist > li:hover {
+     opacity: 0.5;
+     background-color: #002266;
+}
+
+ul.playlist > li.current {
+     opacity: 0.5;
+     /* background-color: #192b4d; */
+     background-color: #002266;
+}

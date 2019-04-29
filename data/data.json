@@ -1,0 +1,23 @@
+[
+     {
+          "index": 0,
+		"artist": "Brian McKnight",
+		"title": "6 8 12",
+		"filename": "Brian McKnight - 6 8 12",
+		"extension": "mp3"
+	},
+	{
+          "index": 1,
+		"artist": "Ella Mai",
+		"title": "Trip",
+		"filename": "Ella Mai - Trip",
+		"extension": "mp3"
+	},
+	{
+          "index": 2,
+		"artist": "Juan Karlos Labajo",
+		"title": "Demonyo",
+		"filename": "Juan Karlos Labajo - Demonyo",
+		"extension": "mp3"
+	}
+]
